@@ -12,8 +12,8 @@ public class twosum2 {
         for (int i = 0; i<numbers.length; i++){
             for(int j = i + 1; j<numbers.length; i++){
                 if (numbers[i]+numbers[j] == target){
-                    index[0]=i +1;
-                    index[1]=j +1;
+                    index[1]=i +1;
+                    index[0]=j +1;
                     return index;
                 }
             }           
